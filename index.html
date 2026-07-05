@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do you love me?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+    <div id="main-content">
+        <img id="image" src="question.gif" alt="Panda">
+        <h1 id="text">Do you love me?</h1>
+        <div class="buttons">
+            <button id="yesBtn" onclick="showLoading()">Yes</button>
+            <button id="noBtn" onmouseover="moveButton()">No</button>
+        </div>
+    </div>
+
+    <div id="loading" style="display:none; text-align:center; margin-top:100px;">
+    <img src="loading.gif" style="width:100px;">
+    <p>Loading...</p>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
